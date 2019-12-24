@@ -3,12 +3,12 @@ Contains the Project: Business Card Parser that extracts the name, phone number,
 
 # Testing 
 In order for this Project to run follow these steps at the command line or Python interpreter:
-  1. A virtual environment needs to be created 
-      python3 -m venv env   #env can be called anything 
-  2. Activate and install Spacy
-      source ./env/bin/activate
+  1. A virtual environment needs to be created<br/> 
+     python3 -m venv env #env can be called anything 
+  2. Activate and install Spacy<br/>
+      source ./env/bin/activate<br/>
       pip install spacy
-  3. Download Model for Spacy
+  3. Download Model for Spacy<br/>
       python -m spacy download en_core_web_sm
  
  
