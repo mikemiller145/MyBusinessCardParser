@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
+#Created By Michael Miller
+#12/24/19
+
 
 import re  # Allows Regular Expressions to be used
 import os  # Checks for validity of file input
 import sys
 
+#  Used to try to redirect Path variable
 parent_dir = os.path.abspath(os.path.dirname(__file__))
 venv_dir = os.path.join(parent_dir, 'venv/Lib/site-packages/spacy')
 
